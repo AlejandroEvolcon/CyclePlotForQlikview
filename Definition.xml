@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObject Label="Cycle Plot" Path="Evolcon/CyclePlot">
+
+        <Dimension Label="Main Dimension:" TargetName="Dimension" Initial="" />
+		<Dimension Label="Secondary Dimension:" TargetName="Dimension" Initial="" />
+        <Measurement Label="Expression:" TargetName="Expression" Initial=""/>
+		<Text Label="Color:" Type="color" Initial="" Expression="#0080FF"/>
+
+        <Initiate Name="Caption.Font.Italic" Value="1" />
+		<Initiate Name="Caption.Text" Value="Cycle Plot" />
+		<Initiate Name="Chart.Dimension.0.Sort.PrimarySort.Use" Value="1" />
+		<Initiate Name="Chart.Dimension.0.Sort.SecondarySort.Use" Value="1" />
+		<Initiate Name="Chart.Dimension.0.Sort.ByExpression.Use" Value="1" />
+		<Initiate Name="Chart.Dimension.1.Sort.PrimarySort.Use" Value="1" />
+		<Initiate Name="Chart.Dimension.1.Sort.SecondarySort.Use" Value="1" />
+		<Initiate Name="Chart.Dimension.1.Sort.ByExpression.Use" Value="1" />
+		
+		
+</ExtensionObject>

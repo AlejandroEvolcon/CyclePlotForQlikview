@@ -1,0 +1,45 @@
+svg {
+  font: 12px sans-serif;
+  padding: 10px;
+}
+
+.chart {
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+  shape-rendering: crispEdges;
+}
+
+.axis text{
+		font: 12px sans-serif;
+}
+
+.line, .mean{
+    fill: none;
+    stroke-width: 1.5px;
+}
+  
+.mean {
+    stroke-opacity: 0.5;
+}
+
+.yAxisDot .minor line {
+  stroke: #777;
+  stroke-dasharray: 2,2;
+}
+
+.yAxisDot text{
+	font: 0px sans-serif;
+}
+
+.yAxisDot path{
+	display: none;
+}
+.yAxisDot line{
+	
+}
